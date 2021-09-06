@@ -1,10 +1,18 @@
 # Delete-Old-Files-by-Date-Interval
-   Compile:
-   ```nim c delete.nim
+Compile:
    ```
-      Linux:
-   ```./delete 5 "txt" "./test_folder" "./logs"
+   nim c delete.nim
+   
    ```
-      Windows:
-   ```delete.exe 5 "txt" "C:\test_folder" "C:\logs"
+ 
+Linux:
+   ```
+   ./delete 5 "txt" "./test_folder" "./logs"
+   
+   ```
+ 
+Windows:
+   ```
+   delete.exe 5 "txt" "C:\test_folder" "C:\logs"
+   
    ```
